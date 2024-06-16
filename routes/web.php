@@ -8,7 +8,8 @@ use App\Http\Controllers\PublisherController;
 
 
 Route::get('/Book', [BookController::class, 'index'])->name('book.index');
-Route::get('/Login', [AuthController::class, 'login'])->name('auth.login');
+Route::get('/CreateBook', [BookController::class, 'create'])->name('book.create');
+Route::get('/', [AuthController::class, 'login'])->name('auth.login');
 Route::get('/Register', [AuthController::class, 'register'])->name('auth.register');
 Route::get('/Author', [AuthorController::class, 'index'])->name('author.index');
 Route::get('/Publisher', [PublisherController::class, 'index'])->name('publisher.index');

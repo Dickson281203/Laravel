@@ -10,4 +10,9 @@ class BookController extends Controller
     {
         return view('book.index');
     }
+
+    public function create()
+    {
+        return view('book.create');
+    }
 }
