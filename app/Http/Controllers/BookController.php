@@ -15,4 +15,19 @@ class BookController extends Controller
     {
         return view('book.create');
     }
+
+    public function edit()
+    {
+        return view('book.edit');
+    }
+
+    public function detail()
+    {
+        return view('book.detail');
+    }
+
+    public function delete()
+    {
+        echo 'Buku Deleted';
+    }
 }

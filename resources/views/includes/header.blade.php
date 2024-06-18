@@ -80,29 +80,6 @@
                                 <span class="ms-2">Author</span>
                             </a>
                         </li>
-                        <!-- <li>
-                            <a class="has-arrow material-ripple" href="#">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list-nested" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5m-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5" />
-                                </svg>
-                                <span class="ms-2">Multi Level Menu</span>
-                            </a>
-                            <ul class="nav-second-level">
-                                <li><a href="#">Menu - 2(1)</a></li>
-                                <li>
-                                    <a class="has-arrow" href="#" aria-expanded="false">Level - 2</a>
-                                    <ul class="nav-third-level">
-                                        <li><a href="#">Menu - 3(1)</a></li>
-                                        <li>
-                                            <a class="has-arrow" href="#" aria-expanded="false">Level - 3</a>
-                                            <ul class="nav-fourth-level">
-                                                <li><a href="#">Menu - 4(1)</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li> -->
                         <li class="nav-label">
                             <span class="nav-label_text">Account</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-three-dots nav-label_ellipsis m-auto" viewBox="0 0 16 16">
@@ -110,7 +87,7 @@
                             </svg>
                         </li>
                         <li>
-                            <a href="profile.html">
+                            <a href="{{ route('profile.edit') }}">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard2-plus" viewBox="0 0 16 16">
                                     <path d="M9.5 0a.5.5 0 0 1 .5.5.5.5 0 0 0 .5.5.5.5 0 0 1 .5.5V2a.5.5 0 0 1-.5.5h-5A.5.5 0 0 1 5 2v-.5a.5.5 0 0 1 .5-.5.5.5 0 0 0 .5-.5.5.5 0 0 1 .5-.5z" />
                                     <path d="M3 2.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 0 0-1h-.5A1.5 1.5 0 0 0 2 2.5v12A1.5 1.5 0 0 0 3.5 16h9a1.5 1.5 0 0 0 1.5-1.5v-12A1.5 1.5 0 0 0 12.5 1H12a.5.5 0 0 0 0 1h.5a.5.5 0 0 1 .5.5v12a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5z" />
@@ -119,23 +96,6 @@
                                 <span class="ms-2">Edit Profile</span>
                             </a>
                         </li>
-                        <li>
-                            <a href="setting-app.html">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
-                                    <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z" />
-                                    <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z" />
-                                </svg>
-                                <span class="ms-2">Setting</span>
-                            </a>
-                        </li>
-                        <!-- <li>
-                            <a href="../sign-up.html">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
-                                    <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5" />
-                                </svg>
-                                <span class="ms-2">Support</span>
-                            </a>
-                        </li> -->
                         <li>
                             <a href="{{ route('auth.login') }}">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
@@ -147,14 +107,6 @@
                         </li>
                     </ul>
                 </nav>
-                <div class="card p-4 shadow-none m-4 help-box alert" role="alert">
-                    <button type="button" class="btn-close end-0 me-3 mt-3 position-absolute top-0" data-bs-dismiss="alert" aria-label="Close"></button>
-                    <div class="text-center"><img src="assets/dist/img/predictive_analytics.png" alt="" height="120" class="mb-3">
-                        <h6 class="mb-1">Monthly Sales Report</h6>
-                        <p class="fs-12">Your monthly sales report is ready for download!</p>
-                        <div class="d-grid"><a class="btn btn-primary" href="#" target="_blank">Purchase</a></div>
-                    </div>
-                </div>
             </div><!-- sidebar-body -->
         </nav>
         <!-- Page Content  -->
@@ -182,148 +134,6 @@
                                 <span class="search-shortcode">(Ctrl+/)</span>
                             </div>
                         </form>
-                        <!-- End /. search -->
-                        <!-- <ul class="navbar-nav">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle material-ripple" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <i class="typcn typcn-weather-stormy top-menu-icon"></i>Home
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="../index.html">Home (Main)</a></li>
-                                    <li><a class="dropdown-item" href="../home-classic.html">Home (Classic)</a></li>
-                                    <li><a class="dropdown-item" href="../home-rounded.html">Home (Rounded)</a></li>
-                                    <li><a class="dropdown-item" href="../home-map.html">Home (Map)</a></li>
-                                    <li><a class="dropdown-item" href="../home-grid.html">Home (Grid)</a></li>
-                                    <li><a class="dropdown-item" href="../home-waves.html">Home (Waves)</a></li>
-                                    <li><a class="dropdown-item" href="../home-car.html">Home (Car)&nbsp;<span class="badge text-bg-primary fw-semibold">New</span></a></li>
-                                    <li><a class="dropdown-item" href="../home-restaurant.html">Home (Restaurant)&nbsp;<span class="badge text-bg-primary fw-semibold">New</span></a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle material-ripple" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <i class="typcn typcn-weather-stormy top-menu-icon"></i>Dashboard
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="dashboard.html">Dashboard</a></li>
-                                    <li><a class="dropdown-item" href="bookings.html">Bookings</a></li>
-                                    <li><a class="dropdown-item" href="messages.html">Message</a></li>
-                                    <li><a class="dropdown-item" href="wallet.html">Wallet</a></li>
-                                    <li><a class="dropdown-item" href="profile.html">Edit Profile</a></li>
-                                    <li><a class="dropdown-item" href="add-listing.html">Add listing</a></li>
-                                    <li><a class="dropdown-item" href="my-listing.html">My listing</a></li>
-                                    <li><a class="dropdown-item" href="bookings.html">Bookings</a></li>
-                                    <li><a class="dropdown-item" href="reviews.html">Reviews</a></li>
-                                    <li><a class="dropdown-item" href="bookmark.html">Bookmark</a></li>
-                                    <li><a class="dropdown-item" href="setting-app.html">Settings</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
-                                    Listing
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item dropdown">
-                                        <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">List View</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="../listings-list-left.html">Left Sidebar</a></li>
-                                            <li><a class="dropdown-item" href="../listings-list-right.html">Right Sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Grid View 1</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="../listings-grid-1-left.html">Left Sidebar</a></li>
-                                            <li><a class="dropdown-item" href="../listings-grid-1-right.html">Right Sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Grid View 2</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="../listings-grid-2-left.html">Left Sidebar</a></li>
-                                            <li><a class="dropdown-item" href="../listings-grid-2-right.html">Right Sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Half Map + Sidebar</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="../listings-map.html">Half Map List</a></li>
-                                            <li><a class="dropdown-item" href="../listings-map-car.html">Half Map List (Car)&nbsp;<span class="badge text-bg-primary fw-semibold">New</span></a></li>
-                                            <li><a class="dropdown-item" href="../listings-map-grid-1.html">Half Map Grid 1</a></li>
-                                            <li><a class="dropdown-item" href="../listings-map-grid-2.html">Half Map Grid 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Listing Details</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="../listing-details.html">Listing Details 1</a></li>
-                                            <li><a class="dropdown-item" href="../listing-details-2.html">Listing Details 2</a></li>
-                                            <li><a class="dropdown-item" href="../listing-details-car.html">Listing Details Car&nbsp;<span class="badge text-bg-primary fw-semibold">New</span></a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../listings-map-grid-1.html"><i class="typcn typcn-point-of-interest-outline top-menu-icon"></i>Explore</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
-                                    Template
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item dropdown">
-                                        <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="../about.html">About us 1</a></li>
-                                            <li><a class="dropdown-item" href="../about-2.html">About us 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Agent</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="../agent.html">Agent</a></li>
-                                            <li><a class="dropdown-item" href="../agent-details.html">Agent Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="dropdown-item dropdown-toggle" href="../blog.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="../blog.html">Blog</a></li>
-                                            <li><a class="dropdown-item" href="../blog-details.html">Blog Standard</a></li>
-                                            <li><a class="dropdown-item" href="../blog-post-galary.html">Blog Galary</a></li>
-                                            <li><a class="dropdown-item" href="../blog-post-video.html">Blog Video</a></li>
-                                            <li><a class="dropdown-item" href="../blog-post-audio.html">Blog Audio</a></li>
-                                            <li><a class="dropdown-item" href="../blog-archive.html">Blog Archive</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="dropdown-item" href="../add-listing.html">Add Listing</a></li>
-                                    <li><a class="dropdown-item" href="../contact.html">Contact</a></li>
-                                    <li><a class="dropdown-item" href="../pricing.html">Pricing</a></li>
-                                    <li class="nav-item dropdown">
-                                        <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Authentication</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="../sign-in.html">Sign In</a></li>
-                                            <li><a class="dropdown-item" href="../sign-up.html">Sign Up</a></li>
-                                            <li><a class="dropdown-item" href="../forgot-password.html">Forgot Password</a></li>
-                                            <li><a class="dropdown-item" href="../two-factor-auth.html">Two factor authentication</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Specialty</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="../404.html">404 Page</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Help Center</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="../faq.html">Faq Page</a></li>
-                                            <li><a class="dropdown-item" href="../terms-conditions.html">Terms & Conditions</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="dropdown-item" href="../style-guide.html">Style Guide</a></li>
-                                </ul>
-                            </li>
-                        </ul> -->
                     </div>
                     <div class="navbar-icon d-flex">
                         <ul class="navbar-nav flex-row align-items-center">
@@ -371,29 +181,17 @@
                                         <h6>Naeem Khan</h6>
                                         <span>example@gmail.com</span>
                                     </div><!-- user-header -->
-                                    <a href="profile.html" class="dropdown-item">
+                                    <a href="{{ route('profile.index') }}" class="dropdown-item">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
                                             <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664z" />
                                         </svg>
                                         My Profile</a>
-                                    <a href="profile.html" class="dropdown-item">
+                                    <a href="{{ route('profile.edit') }}" class="dropdown-item">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
                                             <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001m-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
                                         </svg>
                                         Edit Profile</a>
-                                    <a href="" class="dropdown-item">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-shuffle" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd" d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.624 9.624 0 0 0 7.556 8a9.624 9.624 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.595 10.595 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.624 9.624 0 0 0 6.444 8a9.624 9.624 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5" />
-                                            <path d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192zm0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192z" />
-                                        </svg>
-                                        Activity Logs</a>
-                                    <a href="setting-app.html" class="dropdown-item">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
-                                            <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z" />
-                                            <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z" />
-                                        </svg>
-                                        Account Settings</a>
-                                    <a href="../sign-in.html" class="dropdown-item">
+                                    <a href="{{ route('auth.login') }}" class="dropdown-item">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0z" />
                                             <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />

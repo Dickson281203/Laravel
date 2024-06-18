@@ -10,4 +10,24 @@ class PublisherController extends Controller
     {
         return view('publisher.index');
     }
+
+    public function create()
+    {
+        return view('publisher.create');
+    }
+
+    public function edit()
+    {
+        return view('publisher.edit');
+    }
+
+    public function detail()
+    {
+        return view('publisher.detail');
+    }
+
+    public function delete()
+    {
+        echo 'Publisher Deleted';
+    }
 }

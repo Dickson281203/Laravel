@@ -15,7 +15,7 @@
                             <!-- start form group -->
                             <div class="">
                                 <label class="required fw-medium mb-2">Book Title</label>
-                                <input type="text" class="form-control" required="">
+                                <input type="text" class="form-control" required="" value="Chuijhal Hotel And Restaurant">
                             </div>
                             <!-- end /. form group -->
                         </div>
@@ -62,7 +62,7 @@
                             <!-- start form group -->
                             <div class="">
                                 <label class="required fw-medium mb-2">Stock</label>
-                                <input type="number" class="form-control" placeholder="+ Add Stock" required="">
+                                <input type="number" class="form-control" placeholder="+ Add Stock" required="" value="13">
                             </div>
                             <!-- end /. form group -->
                         </div>
@@ -93,7 +93,7 @@
                             <!-- start form group -->
                             <div class="">
                                 <label class="required fw-medium mb-2">Description</label>
-                                <textarea class="form-control" rows="7" placeholder="Please enter up to 4000 characters."></textarea>
+                                <textarea class="form-control" rows="7" placeholder="Please enter up to 4000 characters.">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quidem non placeat rem omnis eveniet adipisci eligendi recusandae. Exercitationem repellat corporis cumque id blanditiis quasi voluptas deserunt quam nihil voluptatem!</textarea>
                             </div>
                             <!-- end /. form group -->
                         </div>
@@ -115,8 +115,8 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><input type="text" class="form-control" placeholder="IDR"></td>
-                                    <td><input type="text" class="form-control" placeholder="IDR"></td>
+                                    <td><input type="text" class="form-control" placeholder="IDR" value="95.000"></td>
+                                    <td><input type="text" class="form-control" placeholder="IDR" value="120.000"></td>
                                 </tr>
                             </tbody>
                         </table>
