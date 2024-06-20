@@ -20,4 +20,9 @@ class AuthController extends Controller
     {
         return view('auth.forgotpassword');
     }
+
+    public function logout()
+    {
+        return view('auth.login');
+    }
 }

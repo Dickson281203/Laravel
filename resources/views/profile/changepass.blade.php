@@ -68,48 +68,31 @@
         <form method="get" action="" enctype="multipart/form-data">
             <div class="card mb-4">
                 <div class="card-header position-relative">
-                    <h6 class="fs-17 fw-semi-bold mb-0">Edit Profile</h6>
+                    <h6 class="fs-17 fw-semi-bold mb-0">Change Password</h6>
                 </div>
                 <div class="card-body">
                     <div class="row g-4">
-                        <div class="col-sm-6 col-lg-6">
+                        <div class="col-sm-6">
                             <!-- start form group -->
                             <div class="">
-                                <label class="required fw-medium mb-2">Full Name</label>
-                                <input type="text" name="fullname" id="fullname" class="form-control" placeholder="Name" required="" value="Dickson Teo">
+                                <label class="required fw-medium mb-2">Current Password</label>
+                                <input type="text" class="form-control" required="">
                             </div>
                             <!-- end /. form group -->
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-sm-6">
                             <!-- start form group -->
                             <div class="">
-                                <label class="required fw-medium mb-2">Email Address</label>
-                                <input type="email" name="email" id="email" class="form-control" placeholder="example@email.com" required="" value="admin@gmail.com">
+                                <label class="required fw-medium mb-2">New Password</label>
+                                <input type="text" class="form-control" required="">
                             </div>
                             <!-- end /. form group -->
                         </div>
-                        <div class="col-sm-6 col-lg-6">
+                        <div class="col-sm-12">
                             <!-- start form group -->
                             <div class="">
-                                <label class="required fw-medium mb-2">Phone</label>
-                                <input type="number" name="phone" id="phone" class="form-control" placeholder="(123) 456 - 789" required="" value="08517665843">
-                            </div>
-                            <!-- end /. form group -->
-                        </div>
-                        <div class="col-sm-6 col-lg-6">
-                            <!-- start form group -->
-                            <div class="">
-                                <label class="required fw-medium mb-2">Home Address</label>
-                                <input type="text" name="address" id="address" class="form-control" placeholder="(123) 456 - 789" required="" value="Perum. Kintamani, Batam, Indonesia">
-                            </div>
-                            <!-- end /. form group -->
-                        </div>
-                        <div class="col-12">
-                            <!-- start form group -->
-                            <div class="">
-                                <label class="required fw-medium mb-2">Photo Profile</label>
-                                <input class="form-control" type="file" name="files" accept=".jpg, .png, image/jpeg, image/png" multiple>
-                                <div class="mt-1 text-primary small">Recommended to 160x100 px (jpg, jpeg, png, gif, ico).</div>
+                                <label class="required fw-medium mb-2">Confirm Password</label>
+                                <input type="text" class="form-control" required="">
                             </div>
                             <!-- end /. form group -->
                         </div>

@@ -10,7 +10,7 @@
                     <h6 class="fs-17 fw-semi-bold mb-0">Publisher Informations</h6>
                 </div>
                 <div class="card-body">
-                    <div class="row g-4">
+                    <div class="row g-4">s
                         <div class="col-sm-12">
                             <!-- start form group -->
                             <div class="">

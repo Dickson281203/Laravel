@@ -30,4 +30,8 @@ class BookController extends Controller
     {
         echo 'Buku Deleted';
     }
+    public function transaksi()
+    {
+        return view('book.transaksi');
+    }
 }
